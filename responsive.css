@@ -1,0 +1,99 @@
+@media only screen and (min-width:200px) and (max-width:567px){
+    /* #Fullwebsite-Wrapper{
+        width: 100%;
+        height: auto;
+    } */
+    #Fullwebsite-Wrapper>header{
+        display: none;
+    }
+    .formobile{
+        display: block;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: relative;
+        background: black;
+    }
+    .formobile aside{
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        padding-left:10px ;
+    }
+    .formobile aside .fa-spotify{
+        font-size: 25px;
+    }
+    .formobile aside:last-child{
+        display: flex;
+        justify-content: right;
+        padding:10px 30px;
+        gap: 15px;
+    }
+    .formobile aside:last-child i{
+        font-size: 20px;
+        color: white;
+    }
+    .formobile aside:last-child button{
+        width: 100px;
+        padding: 7px 0px;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: 600;
+        background: white;
+        border: none;
+    }
+    .menuBlackBg{
+        display: block;
+        width: 100%;
+        height: 100vh;
+        background: black;
+        position: fixed;
+        z-index: 99;
+        transform: translateX(100%);
+        transition:1s
+    }
+    .ShowmenuBlackBg{
+        transform: translateX(0%);
+    }
+    .fa-xmark{
+        position: absolute;
+        top: 15px;
+        right: 20px;
+        font-size: 35px;
+        color: white;
+        font-weight: 700;
+    }
+    .menuBlackBg a{
+        color: white;
+        font-weight: 700;
+        font-size: 22px;
+    }
+    .menuBlackBg div{
+        position: absolute;
+        top: 100px;
+        left: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .menuBlackBg hr{
+        width: 50px;
+    }
+    .menuBlackBg div ul{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    main aside:first-child{
+        display: none;
+    }
+    main aside:last-child{
+        flex-basis: 100%;
+    }
+    footer{
+        display: none;
+    }
+}

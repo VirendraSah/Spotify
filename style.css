@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+:root{
+    --fade-white:#b3b3b3;
+}
+body{
+    background: black;
+}
+#Fullwebsite-Wrapper{
+    max-width: 100%;
+    height: 100vh;
+    border: 10px solid black;
+    background: black;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#Fullwebsite-Wrapper>header{
+    width: 100%;
+    position: relative;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: black;
+}
+#Fullwebsite-Wrapper>header>aside{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+#Fullwebsite-Wrapper>header>aside:first-child{
+    padding: 5px 30px;
+}
+.fa-spotify{
+    font-size: 30px;
+    color: white;
+}
+.search-outer{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.search-outer .fa-house{
+    width: 45px;
+    height: 45px;
+    background: rgba(49, 49, 49, 0.626);
+    font-size: 20px;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-outer div{
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid var(--fade-white);
+    background: #1f1f1f;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 0px 10px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.search-outer div:hover{
+    box-shadow:
+  0px 0px 100px #393838 inset;
+}
+.search-outer .fa-magnifying-glass{
+    font-size: 25px;
+    color:var(--fade-white);
+}
+.search-outer div input{
+    width: 100%;
+    font-weight: 600;
+    font-size: 17px;
+    color: var(--fade-white);
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 5px 0px;
+    border-right: 0.01px solid var(--fade-white);
+}
+.fa-folder-open{
+    font-size: 20px;
+    color: var(--fade-white);
+}
+#Fullwebsite-Wrapper>header aside:last-child{
+    color: var(--fade-white);
+    font-weight: 700;
+    font-size: 16px;
+}
+#Fullwebsite-Wrapper>header aside:last-child ul{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 5px 20px;
+}
+#Fullwebsite-Wrapper>header aside:last-child ul:first-child{
+    border-right: 0.01px solid var(--fade-white);
+}
+#Fullwebsite-Wrapper>header aside:last-child ul li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+#Fullwebsite-Wrapper>header aside:last-child ul:last-child{
+    font-size: 14px;
+    gap: 20px;
+}
+.fa-arrow-down{
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--fade-white);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px !important;
+}
+#Fullwebsite-Wrapper>header aside:last-child ul:last-child button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: normal;
+    color: black;
+    background: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+
+.formobile{
+    display: none;
+}
+.menuBlackBg{
+    display: none;
+}
+
+main{
+    width: 100%;
+    height:83%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+main aside{
+    background: #121212;
+    border-radius: 5px;
+}
+main aside:first-child{
+    flex-basis: 25%;
+}
+main aside:last-child{
+    flex-basis: 75%;
+}
+
+
+footer{
+    width: 100%;
+    height: max-content;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #A12B82, #5B65D9);
+    position: relative;
+    bottom: 0px;
+    padding: 15px 20px;
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+footer div p:first-child{
+    font-weight: 700;
+    font-size: 14px;
+}
+footer button{
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 20px;
+}
