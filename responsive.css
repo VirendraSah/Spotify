@@ -1,8 +1,4 @@
-@media only screen and (min-width:200px) and (max-width:567px){
-    /* #Fullwebsite-Wrapper{
-        width: 100%;
-        height: auto;
-    } */
+@media only screen and (min-width:200px) and (max-width:575px){
     #Fullwebsite-Wrapper>header{
         display: none;
     }
@@ -96,4 +92,56 @@
     footer{
         display: none;
     }
+    .TabmenuItems{
+        display: none;
+    }
+}
+@media only screen and (min-width:576px) and (max-width:991px){
+    #Fullwebsite-Wrapper>header aside:last-child ul:first-child{
+        display: none;
+    }
+    .search-outer div{
+        flex-basis: max-content;
+        border: none;
+        background: none;
+    }
+    .fa-folder-open{
+        display: none;
+    }
+    .search-outer div input{
+        display: none;
+    }
+    #Fullwebsite-Wrapper>header>aside{
+        flex-basis: max-content;
+    }
+    #Fullwebsite-Wrapper>header aside:last-child ul:last-child li:last-child{
+        display: block;
+        display: grid;
+    }
+    .TabmenuItems{
+        width: 200px;
+        background: #121212;
+        position: absolute;
+        top: 60px;
+        right: 30px;
+        z-index: 9;
+        padding: 15px;
+        border-radius: 5px;
+        border: 1px solid black;
+        display: none;
+    }
+    .TabmenuItems ul{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .TabmenuItems ul li{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        color: white;
+    }
+
 }
