@@ -1,8 +1,13 @@
-@media only screen and (min-width:200px) and (max-width:575px){
-    #Fullwebsite-Wrapper>header{
+@media only screen and (min-width:200px) and (max-width:575px) {
+    #Fullwebsite-Wrapper {
+        border: none;
+    }
+
+    #Fullwebsite-Wrapper>header {
         display: none;
     }
-    .formobile{
+
+    .formobile {
         display: block;
         width: 100%;
         height: auto;
@@ -12,26 +17,31 @@
         position: relative;
         background: black;
     }
-    .formobile aside{
+
+    .formobile aside {
         flex-grow: 1;
         display: flex;
         align-items: center;
-        padding-left:10px ;
+        padding-left: 10px;
     }
-    .formobile aside .fa-spotify{
+
+    .formobile aside .fa-spotify {
         font-size: 25px;
     }
-    .formobile aside:last-child{
+
+    .formobile aside:last-child {
         display: flex;
         justify-content: right;
-        padding:10px 30px;
+        padding: 10px 30px;
         gap: 15px;
     }
-    .formobile aside:last-child i{
+
+    .formobile aside:last-child i {
         font-size: 20px;
         color: white;
     }
-    .formobile aside:last-child button{
+
+    .formobile aside:last-child button {
         width: 100px;
         padding: 7px 0px;
         border-radius: 20px;
@@ -40,7 +50,8 @@
         background: white;
         border: none;
     }
-    .menuBlackBg{
+
+    .menuBlackBg {
         display: block;
         width: 100%;
         height: 100vh;
@@ -48,12 +59,14 @@
         position: fixed;
         z-index: 99;
         transform: translateX(100%);
-        transition:1s
+        transition: 1s
     }
-    .ShowmenuBlackBg{
+
+    .ShowmenuBlackBg {
         transform: translateX(0%);
     }
-    .fa-xmark{
+
+    .fa-xmark {
         position: absolute;
         top: 15px;
         right: 20px;
@@ -61,12 +74,14 @@
         color: white;
         font-weight: 700;
     }
-    .menuBlackBg a{
+
+    .menuBlackBg a {
         color: white;
         font-weight: 700;
         font-size: 22px;
     }
-    .menuBlackBg div{
+
+    .menuBlackBg div {
         position: absolute;
         top: 100px;
         left: 30px;
@@ -74,51 +89,150 @@
         flex-direction: column;
         gap: 30px;
     }
-    .menuBlackBg hr{
+
+    .menuBlackBg hr {
         width: 50px;
     }
-    .menuBlackBg div ul{
+
+    .menuBlackBg div ul {
         display: flex;
         flex-direction: column;
         gap: 20px;
     }
 
-    main aside:first-child{
+    main aside:first-child {
         display: none;
     }
-    main aside:last-child{
-        flex-basis: 100%;
-    }
-    footer{
+
+    footer {
         display: none;
     }
-    .TabmenuItems{
+
+    .TabmenuItems {
         display: none;
     }
+
+    main aside:last-child {
+        width: auto;
+        left: 0px;
+        height: auto;
+    }
+
+    .song-cards div:last-child h3 {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .song-cards div:last-child p {
+        display: none;
+    }
+
+    .Artist figure img {
+        border-radius: 0px;
+    }
+
+    .Song-cards-head-title button {
+        display: none;
+    }
+
+    .fa-play {
+        display: none;
+    }
+
+    .popular-radio h3 {
+        display: block;
+    }
+
+    .popular-radio p {
+        display: none;
+    }
+
+    .img-Caption figure img {
+        max-width: 150px;
+    }
+
+    .Song-cards-head-title span {
+        font-size: 20px;
+    }
+
+    .song-cards {
+        top: 12px;
+    }
+
+    .right-aside-footer {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .right-aside-footer-wrapper {
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .right-aside-footer div:last-child {
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .copyright-wrapper div{
+        display: block;
+    }
+    .copyright-wrapper button{
+        display: block;
+    }
+    .copyright-wrapper .library-footer{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .copyright-wrapper .library-footer ul li{
+        font-size: 13px;
+    }
+    .copyright-wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+    }
+    .right-aside-footer{
+        padding: 20px;
+    }
+    .right-aside-footer-wrapper ul{
+        gap: 10px;
+    }
+
 }
-@media only screen and (min-width:576px) and (max-width:991px){
-    #Fullwebsite-Wrapper>header aside:last-child ul:first-child{
+
+@media only screen and (min-width:576px) and (max-width:991px) {
+    #Fullwebsite-Wrapper>header aside:last-child ul:first-child {
         display: none;
     }
-    .search-outer div{
+
+    .search-outer div {
         flex-basis: max-content;
         border: none;
         background: none;
     }
-    .fa-folder-open{
+
+    .fa-folder-open {
         display: none;
     }
-    .search-outer div input{
+
+    .search-outer div input {
         display: none;
     }
-    #Fullwebsite-Wrapper>header>aside{
+
+    #Fullwebsite-Wrapper>header>aside {
         flex-basis: max-content;
     }
-    #Fullwebsite-Wrapper>header aside:last-child ul:last-child li:last-child{
+
+    #Fullwebsite-Wrapper>header aside:last-child ul:last-child li:last-child {
         display: block;
         display: grid;
     }
-    .TabmenuItems{
+
+    .TabmenuItems {
         width: 200px;
         background: #121212;
         position: absolute;
@@ -130,12 +244,14 @@
         border: 1px solid black;
         display: none;
     }
-    .TabmenuItems ul{
+
+    .TabmenuItems ul {
         display: flex;
         flex-direction: column;
         gap: 20px;
     }
-    .TabmenuItems ul li{
+
+    .TabmenuItems ul li {
         display: flex;
         flex-direction: row;
         align-items: center;
