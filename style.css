@@ -556,7 +556,7 @@ main aside:last-child {
 
 .right-aside-footer {
     width: 100%;
-    min-height: 300px;
+    height: auto;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
