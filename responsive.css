@@ -201,7 +201,41 @@
     .right-aside-footer-wrapper ul{
         gap: 10px;
     }
+    /* Signup page */
+    .signup-heading i{
+        font-size: 35px;
+    }
+    .signup-heading h1{
+        font-size: 35px;
+    }
+    .signup-input button{
+        width: 310px;
+    }
+    .signup-others ul li a{
+        width: 300px;
+    }
 
+    /* Login page */
+    #loginform{
+        min-height: max-content;
+        background: black !important;
+    }
+    #loginPage hr{
+        width: 100%;
+    }
+    #loginPage{
+        margin: 0px;
+        margin-bottom: 0px;
+        height: max-content;
+        background: transparent;
+    }
+    .login-others ul{
+        width: max-content;
+    }
+    .loginfooter{
+        position: static !important;
+    }
+    
 }
 
 @media only screen and (min-width:576px) and (max-width:991px) {

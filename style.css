@@ -146,6 +146,9 @@ body {
     gap: 5px;
     cursor: pointer;
 }
+#Fullwebsite-Wrapper>header aside:last-child ul li a{
+    color: var(--fade-white);
+}
 
 #Fullwebsite-Wrapper>header aside:last-child ul:last-child {
     font-size: 14px;
@@ -180,7 +183,8 @@ body {
     padding: 5px 10px;
     display: none;
 }
-#Fullwebsite-Wrapper>header aside:last-child ul li:hover{
+
+#Fullwebsite-Wrapper>header aside:last-child ul li:hover {
     color: white;
 }
 
@@ -381,7 +385,7 @@ main aside:last-child {
     text-decoration: underline;
 }
 
-.library-wrapper>div:last-child button{
+.library-wrapper>div:last-child button {
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -640,10 +644,12 @@ main aside:last-child {
     font-size: 14px;
     color: var(--fade-white);
 }
-.copyright-wrapper>div{
+
+.copyright-wrapper>div {
     display: none;
 }
-.copyright-wrapper button{
+
+.copyright-wrapper button {
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -657,11 +663,13 @@ main aside:last-child {
     border: 1px solid #7c7c7c;
 
 }
+
 .copyright-wrapper button span {
     font-weight: 600;
     color: white;
 }
-.copyright-wrapper button{
+
+.copyright-wrapper button {
     display: none;
 }
 
@@ -699,4 +707,304 @@ footer button {
     font-size: 15px;
     font-weight: 600;
     margin-right: 20px;
+}
+
+
+/* Signup */
+
+#signup-outer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 30px 0px;
+
+}
+
+.signup-heading {
+    width: max-content;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.signup-heading i {
+    font-size: 40px;
+}
+
+.signup-heading h1 {
+    font-weight: 700;
+    font-size: 48px;
+    color: white;
+}
+
+#signup-outer main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-input {
+    max-width: 700px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    border-bottom: 1px solid #7c7c7c;
+    padding: 0px 0px 40px 0px;
+    position: relative;
+
+}
+
+.signup-input label {
+    font-weight: 700;
+    color: white;
+    font-size: 14px;
+}
+
+.signup-input input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: 1px solid #7c7c7c;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 400;
+    color: #b3b3b3;
+    font-size: 16px;
+}
+
+.signup-input input::placeholder {
+    font-size: 400;
+    color: #b3b3b3;
+    font-size: 16px;
+}
+
+.signup-input input:hover {
+    border: 1px solid white;
+}
+
+.signup-input span {
+    font-weight: 400;
+    font-size: 14px;
+    color: #1ed760;
+    text-decoration: underline;
+}
+
+.signup-input button {
+    width: 350px;
+    height: 50px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #0b0000;
+    background: #1ed760;
+    border: none;
+    margin-top: 20px;
+}
+
+.signup-input .or-border {
+    width: 40px;
+    height: 40px;
+    color: #fff0c2;
+    text-decoration: none;
+    background: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: 13px;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.signup-others {
+    width: max-content;
+    margin-top: 20px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.signup-others ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #292929;
+}
+
+.signup-others ul li a {
+    width: 330px;
+    height: 50px;
+    border: 1px solid #7c7c7c;
+    padding: 15px 25px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+}
+
+.fa-google {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    position: absolute;
+    left: 30px;
+}
+
+.signup-others a span {
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+}
+
+.signup-others .fa-facebook {
+    color: #1877f2;
+    font-size: 20px;
+    position: absolute;
+    left: 30px;
+}
+
+.fa-apple {
+    font-size: 20px;
+    color: #ffffff;
+    position: absolute;
+    left: 30px;
+}
+
+.signup-others p {
+    padding: 20px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(179, 179, 179);
+}
+
+.signup-others p a {
+    font-weight: 400;
+    color: white;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+#footer-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    text-align: center;
+    position: static;
+    font-size: 12px;
+    color: rgb(179, 179, 179);
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+
+#footer-text a {
+    color: rgb(179, 179, 179);
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+
+/* Login Page */
+#loginform{
+    width: 100%;
+    height: 85vh;
+    background: linear-gradient(to bottom, #1e1e1e, #000000) !important;
+}
+
+#loginPage {
+    max-width: 700px;
+    height: 700px;
+    background: linear-gradient(to top, #121212, #000000);
+    margin: 50px auto;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+#loginPage .fa-spotify {
+    font-size: 40px;
+}
+
+#loginPage h1 {
+    font-weight: 700;
+    color: white;
+    font-size: 32px;
+}
+
+.login-others ul {
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: none;
+}
+
+#loginPage hr {
+    width: 500px;
+    border: 1px solid #1e1e1e;
+}
+
+.login-input {
+    border-bottom: none;
+    padding: 30px 0px;
+}
+
+#loginPage p {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--fade-white);
+    padding: 15px 0px;
+    text-align: center;
+    line-height: 25px;
+}
+
+#loginPage p a {
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+}
+#loginPage p a:hover{
+    color: #1ed760;
+}
+.loginfooter{
+    height: 10vh;
+    position: fixed !important;
+    bottom: 0px !important;
 }
