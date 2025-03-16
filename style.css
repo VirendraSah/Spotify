@@ -991,6 +991,9 @@ footer button {
     text-align: center;
     line-height: 25px;
 }
+#loginPage p br{
+    display: none;
+}
 
 #loginPage p a {
     font-weight: 400;
